@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login form</title>
+
+    <link rel="stylesheet" type="text/css" href="css/login_styles.css">
+
+    <script type="text/javascript" src="js/login.js" ></script>
+</head>
+<body>
+
+    <div class="loginform">
+        <form name="login" action="" onsubmit="return validateForm();" method="post" accept-charset="utf-8">
+            <p id="signin">Sign in</p>
+
+            <div class="loginfield">
+                <label for="usermail">Email</label>
+                <input type="email" name="usermail" placeholder="yourname@email.com">
+                <div id="emailerror"></div>
+            </div>
+
+            <div class="loginfield">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="password">
+                <div id="passworderror"></div>
+            </div>
+
+            <input type="submit" class="btn" value="Login">
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+html {
+    background: #68c752;
+    font-family: "Calibri", sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.loginform {
+    width: 300px;
+    margin: 100px auto 0 auto;
+    padding: 10px;
+    background: #6fcb86;
+    border-radius: 4px;
+}
+
+#signin {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.loginfield {
+    margin-bottom: 10px;
+}
+
+.loginform label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.loginform input {
+    width: 100%;
+    height: 30px;
+    border: 0;
+    padding: 10px 0px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-indent: 10px;
+}
+
+.loginform input.btn {
+    background: #00ab8d;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    height: 40px;
+}
+
+.loginform input.btn:hover {
+    background: #008563;
+}
+
+.loginform #emailerror, #passworderror {
+    color: red;
+    font-size: 15px;
+    padding-top: 5px;
+}
